@@ -1,9 +1,12 @@
 import './App.css';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App"> 
-      App Page New branch test for git
+      <Nav />
+      <Footer />
     </div>
   );
 }
