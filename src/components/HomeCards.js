@@ -1,12 +1,12 @@
 import React from 'react'
-import {Col, Button, Card, ListGroup  } from 'react-bootstrap';
+import {Col, Button,  Card, ListGroup  } from 'react-bootstrap';
 import House from '../assets/house.png'; 
 
 
 export default function HomeCards() {
-  return (
-    <Col>
-        <Card className="m-1 mt-5" style={{ width: '18rem' }}>
+  return (  
+    <Col className="justify-content-md-center">
+        <Card className="mt-5" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={House} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -31,6 +31,6 @@ export default function HomeCards() {
                 </Card.Link>
             </Card.Body>
         </Card> 
-    </Col>
+    </Col>   
   )
 }
