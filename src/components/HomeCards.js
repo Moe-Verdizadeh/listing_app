@@ -5,8 +5,8 @@ import House from '../assets/house.png';
 
 export default function HomeCards() {
   return (  
-    <Col className="justify-content-md-center">
-        <Card className="mt-5" style={{ width: '18rem' }}>
+    <Col>
+        <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={House} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -22,7 +22,7 @@ export default function HomeCards() {
                 <ListGroup.Item>Rooms: </ListGroup.Item>
                 <ListGroup.Item>Stories: </ListGroup.Item>
             </ListGroup>
-            <Card.Body>
+            <Card.Body className='text-center'>
                 <Card.Link href="#">More Deatils</Card.Link>
                 <Card.Link href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-heart-fill" viewBox="0 0 16 16">
