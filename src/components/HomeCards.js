@@ -1,5 +1,5 @@
 import React from 'react'
-import {Col, Button,  Card, ListGroup  } from 'react-bootstrap';
+import {Col, Card, ListGroup  } from 'react-bootstrap';
 import House from '../assets/house.png'; 
 
 
